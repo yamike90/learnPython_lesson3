@@ -1,3 +1,5 @@
+#Считать из csv-файла (с http://data.mos.ru/datasets/752) количество остановок, вывести улицу, на которой больше всего остановок.
+
 import csv
 
 with open('data-398-2019-09-18.csv', 'r', encoding='windows-1251') as bus_stops:
